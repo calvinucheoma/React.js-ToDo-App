@@ -1,0 +1,28 @@
+.todoItem:hover{
+    background-color: rgb(237, 253, 9);
+    transform: scaleY(1.08);
+    transition: 0.5s ease-in-out;
+}
+
+.editButton{  
+  margin-top: 10px !important;
+}
+
+.todoInput {
+    width: 330px ;
+}
+
+.todoIcon1{
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.todoIcon2 {
+  cursor: pointer;
+}
+
+@media(max-width: 360px) {
+  .todoInputLabel{
+    padding-left: 25px !important ;
+  }
+};
